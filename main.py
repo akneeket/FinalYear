@@ -4,7 +4,7 @@ import tensorflow as tf
 import google.generativeai as genai
 
 # Configure API key for Gemini
-genai.configure(api_key='AIzaSyAtq4w4eLGlniXwGOnR__Y_53lshw-JbQI')
+genai.configure(api_key='***************************************')
 
 # Load your pre-trained LSTM model (replace with your actual model path)
 model = tf.keras.models.load_model('lstm.h5')
